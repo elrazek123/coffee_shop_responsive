@@ -789,5 +789,6 @@ button:hover
     .links-res
     {
         display: flex;
+        padding: 10px;
     }
 }
