@@ -1,0 +1,793 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body 
+{
+    text-transform: capitalize;
+    background-color: #010103;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    position: relative;
+}
+a
+{
+    text-decoration: none;
+}
+nav
+{
+    padding: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color:#010103 ;
+}
+.links
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    width: 70%;
+    color: white;
+}
+.links a
+{
+    color: white;
+    margin-right: 40px;
+}
+.nav-div-logo
+{
+    width: 15%;
+}
+.icons-div
+{
+    width: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.icons-div i
+{
+    margin-right: 20px;
+}
+.links-res
+{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    color: white;
+    padding: 0px;
+    display: none;
+}
+.links-res a
+{
+    margin: 0px 10px;
+    color: white;
+   
+}
+header
+{
+    background-image: url("./assets/images/coffee-beans-with-props-making-coffee-Photoroom.png");
+    background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    padding: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+header div
+{
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+header div  h1
+{
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+header div  p
+{
+    color: white;
+    color: #69675f;
+    margin-top: 5px;
+}
+
+.sp-button
+{
+    display: inline-block;
+    width: 30%;
+    background-color: #d4ad82;
+    color: white;
+ font-size: larger;
+    height: 45px;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+.seperate-h2
+{
+  color: #c5a589;  
+}
+h2 span
+{
+    color: white;
+}
+section
+{
+    padding: 25px;
+}
+.about-us
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.about-us article
+{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    height: 400px;
+}
+.one-article
+{
+width: 45%;
+height: 100%;
+}
+.one-article  img
+{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.two-article
+{
+width: 50%;
+display: flex;
+flex-flow: column wrap;
+height: 100%;
+justify-content: space-evenly;
+align-items: flex-start;
+margin-left: 10px;
+}
+.two-article p
+{
+    color: #69675f;
+}
+.seperate-h2-diff
+{
+    color: white;
+}
+.seperate-h2-diff span
+{
+    color:#c5a589;
+}
+.our-menu
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.our-menu-one-article
+{
+    width: 30%;
+    margin: 15px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 400px;
+    border: 3px solid #151817;
+}
+.our-menu-one-article img
+{
+    width: 80%;
+    height: 150px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.sp-div-sp
+{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+}
+.img-sp-div
+{
+    width: 100%;
+    height: 25%;
+}
+.img-sp-div img 
+{
+    width: 75%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.sp-two
+{
+display: flex;
+flex-flow: column wrap;
+justify-content: space-evenly;
+align-items: center;
+align-content: center;
+height: 50%;
+}
+.sp-two h3
+{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.sp-two h4
+{
+    font-size: larger;
+    font-weight: bolder;
+    word-spacing: 10px;
+}
+.sp-two button
+{
+    display: inline-block;
+    width: 60%;
+    height: 50px;
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    background-color: #cea57b;
+}
+.img-sp-div
+{
+text-align: center;
+margin-bottom: 10px;
+width: 100%;
+}
+.one
+{
+    height: 50px;
+    border-radius: 9px;
+    color: white;
+    text-align: center;
+    background-color: #cea57b;
+    width: 70%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: larger;
+}
+.img-sp-div img
+{
+    text-align: center;
+width: 100%;
+}
+.products-section
+{
+    padding: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.products-section article
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 30%;
+    height: 500px;
+    padding: 10px 0px;
+    border: 3px solid #151817;
+    margin: 10px 0px;
+}
+.one-div-pro
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    border: 2px solid #151817;
+    width: 50%;
+    padding: 10px;
+}
+.one-div-pro i
+{
+    color: white;
+    font-weight: bolder;
+    border: 2px solid #151817;
+    text-align: center;
+    margin: 10px;
+    height: 100%;
+    width: 24px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.two-div-pro
+{
+width: 100%;
+text-align: center;
+}
+.two-div-pro img
+{
+    width: 70%;
+}
+.three-div-pro h3
+{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.three-div-pro h4
+{
+    font-size: larger;
+    font-weight: bolder;
+}
+.three-div-pro h4 span
+{
+    font-size: small;
+}
+.cutomes-reviews-section
+{
+    padding: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.one-article-review
+{
+width: 30%;
+margin: 15px 0px;
+display: flex;
+flex-flow: column wrap;
+justify-content: space-around;
+align-items: center;
+align-content: center;
+border: 3px solid #151817;
+padding: 5px;
+}
+.one-review-div
+{
+    color: #c5a589;
+    font-size:80px;
+    margin: 10px 0px;
+}
+.two-review-div
+{
+    margin: 10px 0px;
+    width: 100%;
+    text-align: center;
+}
+.three-review-div img
+{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+.three-review-div
+{
+    margin: 10px 0px;
+width: 100%;
+text-align: center;
+}
+.cantact-us-section
+{
+    padding: 25px;
+   
+}
+.cantact-us-section article
+{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    height: 450px;
+}
+.one-contact
+{
+    width: 48%;
+    height: 100%;
+}
+.two-contact
+{
+    width: 50%;
+    height: 100%;
+    background-color: #111219;
+}
+iframe
+{
+    width: 100%;
+    height: 100%;
+}
+.two-contact
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.two-contact h3
+{
+    font-weight: bolder;
+    font-size: x-large;
+    height: 30%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.two-contact form
+{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.one-input
+{
+    width: 75%;
+    position: relative;
+}
+.one-input i
+{
+    position: absolute;
+    left: 10px;
+    font-size: 36px;
+    top: 10%;
+    height: 100px;
+}
+.one-input input
+{
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    height: 50px;
+    background-color: #111219;
+    color: white;
+}
+footer
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+footer .special-footer-div
+{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+footer
+{
+    margin-top: 30px;
+}
+footer h3
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bolder;
+    font-size: larger;
+}
+footer h3 span
+{
+    color: #c5a589;
+}
+.special-footer-div i
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #c5a589;
+    color: white;
+    margin-right: 7px;
+}
+input
+{
+    border: 0px;
+    outline: 0px;
+    border: none;
+    outline: none;
+}
+aside
+{
+    height: 100vh;
+    background-color: red;
+    position: fixed;
+    right: 0px;
+    top: 60px;
+    width: 30%;
+}
+.io
+{
+    height: 100vh;
+    background-color: rgb(8, 0, 255);
+    position: fixed;
+    right: 0px;
+    top: 100px;
+    width: 30%;
+    z-index: 99999999999999999999999999999999999999999;
+}
+.links a
+{
+    transition: border .2s linear 1s;
+}
+.links-res a:hover
+{
+    border-bottom: 2px solid #c5a589;
+}
+.links-res a
+{
+    transition: all 0.1s ease;
+}
+.links a:hover
+{
+    border-bottom: 2px solid #c5a589;
+}
+.sp-button
+{
+    transition: all 2s ease 0s;
+}
+.sp-button:hover
+{
+    width:80%;
+    background-color: #aa5922;
+}
+button
+{
+    transition: all 2s ease 0s;
+}
+button:hover
+{
+    width:80%;
+    background-color: #aa5922;
+}
+.our-menu-one-article
+{
+    transition: all 1s ease .2s;
+}
+.our-menu-one-article:hover
+{
+    background-color: white;
+    color: black;
+}
+.one-div-pro i
+{
+    transition:all 1s ease .2s;
+}
+.one-div-pro i:hover
+{
+    background-color: #c5a589;
+    color: white;
+}
+@media  screen and (min-width:1000px)  and (max-width:1100px)
+{
+    .products-section article
+    {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    .one-div-pro
+    {
+        width: 80%;
+    }
+}
+@media screen  and (min-width:768px) and (max-width:999px)
+{
+    .products-section article
+    {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    .one-div-pro i
+    {
+        width: 20px;
+        height: 20px;
+    }
+    .one-article-review
+    {
+        width: 100%;
+    }
+    header div
+    {
+        width: 60%;
+        color: white;
+    }
+    header div p
+    {
+
+        color: white;
+    }
+    .links
+    {
+        display: none;
+    }
+    .icons-div
+    {
+        width: 50%;
+        justify-content: flex-end;
+    }
+    .links-res
+    {
+        display: flex;
+    }
+}
+@media  screen and (max-width:767px) 
+{
+    .products-section article
+    {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    .one-div-pro
+    {
+        width: 80%;
+    }
+    .one-div-pro i
+    {
+        width: 20px;
+        height: 20px;
+    }
+    .our-menu-one-article
+    {
+        width: 100%;
+    }
+    .one-article-review
+    {
+        width: 100%;
+    }
+    .two-contact
+    {
+        width: 100%;
+    }
+    .one-contact
+    {
+        width: 100%;
+    }
+    .one-contact iframe
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .cantact-us-section article
+    {
+        height: auto;
+    }
+    .two-contact button
+    {
+        margin: 10px 0px;
+    }
+    .two-contact h3
+    {
+        margin: 20px 0px;
+    }
+    form 
+    {
+        margin-top: 30px;
+    }
+    form  input
+    {
+        margin: 20px 0px;
+    }
+    .one-input i
+    {
+        top: 30px;
+    }
+    header div
+    {
+        width: 100%;
+        color: white;
+    }
+   .sp-button
+    {
+        display: inline-block;
+        width:70%;
+    }
+    .about-us article  .two-article
+    {
+        width: 100%;
+    }
+    .about-us article
+    {
+        height: auto;
+    }
+    .two-article h2
+    {
+        margin: 20px 0px;
+    }
+    .one-article
+    {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .one-article img
+    {
+        width: 100%;
+        height: 300px;
+    }
+    .products-section article
+    {
+        width: 100%;
+    }
+    .links
+    {
+        display: none;
+    }
+    .icons-div
+    {
+        width: 50%;
+        justify-content: flex-end;
+    }
+    nav
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+    .links-res
+    {
+        display: flex;
+    }
+}
